@@ -38,7 +38,7 @@ plugins:
   - jekyll-feed
 #disqus:
 #
-shortname: treddinwater # Here's where you put your unique shortname
+#shortname: treddinwater # Here's where you put your unique shortname
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
