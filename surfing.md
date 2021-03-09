@@ -15,23 +15,3 @@ Surfing is dangerous. Surfers are mean.
   .image-gallery a span {display: block; text-overflow: ellipsis; overflow: hidden; white-space: nowrap; padding: 3px 0;}
   .image-gallery a img {width: 100%; display: block;}
 </style>
-
-<div class="image-gallery">
-{% for file in site.static_files %}
-  {% if file.path contains include.folder %}
-    {% if file.extname == '.jpg' or 
-      file.extname == '.jpeg' or 
-      file.extname == '.JPG' or 
-      file.extname == '.JPEG' %}
-
-      {% assign filenameparts = file.path | split: "/" %}
-      {% assign filename = filenameparts | last | replace: file.extname,"" %}
-
-      <a href="{{ file.path }}" title="{{ filename }}">
-        <img src="//images.weserv.nl/?url=grantiago.github.io/{{ file.path }}&w=300&h=300&output=jpg&q=50&t=square" alt="{{ filename }}" />
-        <span>{{ filename }}</span>
-      </a>
-    {% endif %}
-  {% endif %}
-{% endfor %}
-</div>
