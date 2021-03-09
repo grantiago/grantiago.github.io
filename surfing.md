@@ -9,6 +9,3 @@ Surfing is dangerous. Surfers are mean.
 
 {% include image-gallery.html folder="/assets/images" %}
 
-{% if page.comments == true and site.disqus.shortname %}
-    {% include disqus.html %}
-  {% endif %}
