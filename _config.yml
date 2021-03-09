@@ -20,11 +20,12 @@
 
 title: Advanced Dangerous Projects
 email: grant@lrio.com
-description: >- # this means to ignore newlines until "baseurl:"
-  ADP Jekyll Based
-  
-  I used to write. I still do. But I used to write as well.
- 
+author: grant amaral
+description: ADP Jekyll Based
+
+I used to write. I still do. But I used to write as well.
+lang: en
+locale: en_US
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://grantiago.github.io" 
 
