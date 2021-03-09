@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 'Hunting With Goldens'
+author: grant amaral
 categories: hunting
 ---
 
