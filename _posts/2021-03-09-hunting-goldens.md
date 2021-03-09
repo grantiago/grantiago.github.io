@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title: 'Hunting With Goldens'
@@ -26,4 +25,4 @@ The other is beautiful and would hunt for himself on his own terms -- if it wasn
 
 For a couple years I hunted over my friend Jim's two perfectly trained Griffons. 
 How I miss those days of sneaking up on a beeping point while the griffons followed that bizzare specialized and bred instinct to point and hold.
-![Golden Retrievers](assets/photos/dogs/dogs_canoe432.png)
+![Golden Retrievers](assets/images/dogs/dogs_canoe432.png)
