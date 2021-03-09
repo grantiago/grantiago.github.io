@@ -4,7 +4,7 @@ title: 'Serving up Jekyll'
 categories: coding
 ---
 
-**Serving up Jekyll. **
+*Serving up Jekyll. *
 
 Because my Jekyll is on a network server I have to use the magic 0.0.0.0 ip for serve.
 
