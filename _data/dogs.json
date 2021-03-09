@@ -1,0 +1,58 @@
+{
+"dogs": [
+{
+"likes": 1,
+"name": "Boris",
+"breed": "Golden Retriever",
+"imageurl": "http://rivers.lan/android/images/boris.jpg"
+},
+{
+"likes": 2,
+"name": "Nixon",
+"breed": "Golden Retriever",
+"imageurl": "http://rivers.lan/android/images/nixon.jpg"
+},
+{
+"likes": 3,
+"name": "Archie",
+"breed": "Griffon",
+"imageurl": "http://rivers.lan/android/images/archie.jpg"
+},
+{
+"likes": 4,
+"name": "Gordy",
+"breed": "Griffon",
+"imageurl": ""
+},
+{
+"likes": 5,
+"name": "Audie",
+"breed": "Griffon",
+"imageurl": ""
+},
+{
+"likes": 6,
+"name": "Bee",
+"breed": "Labrador",
+"imageurl": ""
+},
+{
+"likes": 7,
+"name": "Stella",
+"breed": "Labrador",
+"imageurl": ""
+},
+{
+"likes": 8,
+"name": "Jasper",
+"breed": "Golden Retriever",
+"imageurl": "http://rivers.lan/android/images/jasper.jpg"
+},
+{
+"likes": 9,
+"name": "Carl",
+"breed": "Golden Retriever",
+"imageurl": ""
+}
+]
+}
