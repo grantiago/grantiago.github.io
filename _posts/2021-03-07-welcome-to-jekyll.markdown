@@ -3,7 +3,6 @@ layout: post
 title:  "Welcome to Jekyll!"
 date:   2021-03-07 13:29:06 -0700
 categories: jekyll update
-author: {{ site.author }}
 tag: stock
 ---
     
