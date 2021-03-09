@@ -19,6 +19,7 @@ I don't make them sit and stay -- their fortee. I let them go: Golden Retriever 
 I could make a list of the different breeds of hunting dogs I would like to own. 
 Ideally, for where I live, it would be a griffon. I almost exclusively hunt for pheasant or quail on a large corn farm. 
 A river runs through it. My favorite hunting, hands down more than an idle walk through the corn, is beating through the coyote-willows along the riverbank. 
+![Golden Retrievers](/assets/images/dogs/dogs_canoe432.png){: .image-left }
 
 For a variety of reasons, I have two Golden Retrievers. How I became their master is a different story I will explain some other time. 
 For the moment imagine these pets, that is how I introduce them, that are obedient and very loving. One has a great nose, big too, and boundless energy. 
@@ -26,4 +27,4 @@ The other is beautiful and would hunt for himself on his own terms -- if it wasn
 
 For a couple years I hunted over my friend Jim's two perfectly trained Griffons. 
 How I miss those days of sneaking up on a beeping point while the griffons followed that bizzare specialized and bred instinct to point and hold.
-![Golden Retrievers](/assets/images/dogs/dogs_canoe432.png){: .image-left }
+
