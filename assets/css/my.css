@@ -4,12 +4,11 @@
 
 .image-right {
   display: block;
-  margin-left: auto;
+  float: right;
+  margin-top: 12px;
   margin-right: auto;
-  @include media($medium) {
-    float: right;
-    margin-left: $gutter;
-  }
+  margin-left: 12px;
+  margin-bottom: 12px;
 }
 
 /*
@@ -18,11 +17,10 @@
 
 .image-left {
   display: block;
+  float: left;
+  margin-top: 12px;
+  margin-right: 12px;
   margin-left: auto;
-  margin-right: auto;
-  @include media($medium) {
-    float: left;
-    margin-right: $gutter;
-  }
+  margin-bottom: 12px;
 }
 
