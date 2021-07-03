@@ -4,7 +4,7 @@
 "likes": 1,
 "name": "Boris",
 "breed": "Golden Retriever",
-"imageurl": "http://rivers.lan/android/images/boris.jpg"
+"imageurl": "{{ "/assets/images/boris.jpg" | relative_url }}"
 },
 {
 "likes": 2,
