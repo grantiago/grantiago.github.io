@@ -12,4 +12,6 @@ $ jekyll serve --host 0.0.0.0
 
 [serve source url.](https://www.zarino.co.uk/post/jekyll-local-network/)
 
+A good overview of jekyll
 
+[How To Jekyll](https://www.aleksandrhovhannisyan.com/blog/getting-started-with-jekyll-and-github-pages/)
