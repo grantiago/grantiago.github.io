@@ -1,8 +1,7 @@
 title: Grant Amaral
 email: grant@lrio.com
 author: grant amaral
-description: "ADP Jekyll Based
- I used to write. I still do. But I used to write as well."
+description: "ADP Jekyll Based I used to write. I still do. But I used to write as well."
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://grantiago.github.io" 
 
@@ -10,7 +9,7 @@ twitter_username: treddinwwater
 github_username:  grantiago
 
 # Build settings
-theme: minima
-plugins:
- - jekyll-feed
+#theme: minima
+#plugins:
+# - jekyll-feed
 exclude: [Gemfile, Gemfile.lock, README.md]
