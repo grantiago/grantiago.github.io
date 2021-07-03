@@ -1,9 +1,8 @@
-title: Advanced Dangerous Projects
+title: Grant Amaral
 email: grant@lrio.com
 author: grant amaral
-description: > this means to ignore newlines until "baseurl:"
- ADP Jekyll Based
- I used to write. I still do. But I used to write as well.
+description: "ADP Jekyll Based
+ I used to write. I still do. But I used to write as well."
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://grantiago.github.io" 
 
@@ -14,15 +13,4 @@ github_username:  grantiago
 theme: minima
 plugins:
  - jekyll-feed
- exclude:
-   - .sass-cache/
-   - .jekyll-cache/
-   - gemfiles/
-   - Gemfile
-   - Gemfile.lock
-   - node_modules/
-   - vendor/bundle/
-   - vendor/cache/
-   - vendor/gems/
-   - vendor/ruby/
-
+exclude: [Gemfile, Gemfile.lock, README.md]
