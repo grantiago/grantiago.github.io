@@ -4,19 +4,19 @@
 "likes": 1,
 "name": "Boris",
 "breed": "Golden Retriever",
-"imageurl":  "/assets/images/boris.jpg"
+"imageurl":  "/assets/images/dogs/boris.jpg"
 },
 {
 "likes": 2,
 "name": "Nixon",
 "breed": "Golden Retriever",
-"imageurl": "http://rivers.lan/android/images/nixon.jpg"
+"imageurl": "/assets/images/dogs/nixon.jpg"
 },
 {
 "likes": 3,
 "name": "Archie",
 "breed": "Griffon",
-"imageurl": "http://rivers.lan/android/images/archie.jpg"
+"imageurl": "/assets/images/dogs/archie.jpg"
 },
 {
 "likes": 4,
@@ -46,7 +46,7 @@
 "likes": 8,
 "name": "Jasper",
 "breed": "Golden Retriever",
-"imageurl": "http://rivers.lan/android/images/jasper.jpg"
+"imageurl": "/assets/images/dogs/jasper.jpg"
 },
 {
 "likes": 9,
