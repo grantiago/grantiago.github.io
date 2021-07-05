@@ -4,7 +4,7 @@
 "likes": 1,
 "name": "Boris",
 "breed": "Golden Retriever",
-"imageurl":  "{{site.baseurl}}/assets/images/dogs/boris.jpg"
+"imageurl":  "/assets/images/dogs/boris.jpg"
 },
 {
 "likes": 2,
