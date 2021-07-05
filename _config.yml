@@ -3,8 +3,8 @@ email: grant@lrio.com
 author: grant amaral
 description: "ADP Jekyll Based I used to write. I still do. But I used to write as well."
 # the subpath of your site, e.g. /blog
-# github pages the /repository_name
-baseurl: "/grantiago.github.io"
+# github pages the repository_name
+baseurl: "grantiago.github.io"
 url: "https://grantiago.github.io" 
 
 twitter_username: treddinwwater
