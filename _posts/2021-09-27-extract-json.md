@@ -7,6 +7,7 @@ tag: coding
 ---
 
 ## How to extract data from JSON with PHP?
+
 ##### shamelessly copied from [stackoverflow](https://stackoverflow.com/questions/29308898/how-do-i-extract-data-from-json-with-php)
 First off you have a string. JSON is not an array, an object, or a data structure. JSON is a text-based serialization format - so a fancy string, but still just a string. Decode it in PHP by using json_decode().
 
@@ -117,6 +118,7 @@ When decoding a JSON object to an associative PHP array, you can iterate both ke
     foreach ($assoc as $key => $value) {
         echo "The value of key '$key' is '$value'", PHP_EOL;
     }
+
 Prints
 
 > The value of key 'foo' is 'foo value'
@@ -146,6 +148,7 @@ Hit the decoded data with a print_r():
     $yummy = json_decode($json);
 
     print_r($yummy);
+
 and check the output:
 
     stdClass Object
@@ -188,6 +191,7 @@ If you can only get so far into it before you get lost - go that far and hit tha
         [id] => 5002
         [type] => Glazed
     )
+
 Take a look at it in this handy [interactive JSON explorer](http://array.include-once.org/).
 
 Break the problem down into pieces that are easier to wrap your head around.
@@ -198,6 +202,7 @@ This happens because either:
 1. The JSON consists entirely of just that, null.
 2. The JSON is invalid - check the result of json_last_error_msg or put it through something like JSONLint.
 3. It contains elements nested more than 512 levels deep. This default max depth can be overridden by passing an integer as the third argument to json_decode().
+
 If you need to change the max depth you're probably solving the wrong problem. Find out why you're getting such deeply nested data (e.g. the service you're querying that's generating the JSON has a bug) and get that to not happen.
 
 ### Object property name contains a special character
@@ -207,6 +212,7 @@ Sometimes you'll have an object property name that contains something like a hyp
     $thing = json_decode($json);
 
     echo $thing->{'@attributes'}->answer; //42
+
 If you have an integer as property see: How to access object properties with names like integers? as reference.
 
 ### Someone put JSON in your JSON
@@ -229,5 +235,6 @@ If your JSON is too large for json_decode() to handle at once things start to ge
 
 Processing large JSON files in PHP
 How to properly iterate through a big json file
+
 ### How to sort it
 See: [Reference: all basic ways to sort arrays and data in PHP.](https://stackoverflow.com/q/17364127/3942918)
