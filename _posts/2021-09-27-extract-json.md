@@ -225,4 +225,4 @@ If your JSON is too large for json_decode() to handle at once things start to ge
 Processing large JSON files in PHP
 How to properly iterate through a big json file
 #### How to sort it
-See: Reference: all basic ways to sort arrays and data in PHP.
+See: [Reference: all basic ways to sort arrays and data in PHP.](https://stackoverflow.com/q/17364127/3942918)
