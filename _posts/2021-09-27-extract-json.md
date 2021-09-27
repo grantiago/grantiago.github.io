@@ -24,7 +24,7 @@ There's nothing special about them. They are not "JSON objects" or "JSON arrays.
 
 Objects will be instances of stdClass, a built-in class which is just a generic thing that's not important here.
 
-#### Accessing object properties
+### Accessing object properties
 You access the properties of one of these objects the same way you would for the public non-static properties of any other object, e.g. $object->property.
 
     $json = '
@@ -36,7 +36,7 @@ You access the properties of one of these objects the same way you would for the
     $yummy = json_decode($json);
 
     echo $yummy->type; //donut
-#### Accessing array elements
+### Accessing array elements
 You access the elements of one of these arrays the same way you would for any other array, e.g. $array[0].
 
     $json = '
@@ -65,7 +65,7 @@ Iterate over it with foreach.
 
 Or mess about with any of the bazillion built-in array functions.
 
-#### Accessing nested items
+### Accessing nested items
 The properties of objects and the elements of arrays might be more objects and/or arrays - you can simply continue to access their properties and members as usual, e.g. $object->array[0]->etc.
 
     $json = '
@@ -99,7 +99,7 @@ When you do this, instead of objects you'll get associative arrays - arrays with
     $yummy = json_decode($json, true);
 
     echo $yummy['toppings'][2]['type']; //Maple
-#### Accessing associative array items
+### Accessing associative array items
 When decoding a JSON object to an associative PHP array, you can iterate both keys and values using the foreach (array_expression as $key => $value) syntax, eg
 
     $json = '
@@ -121,7 +121,7 @@ Prints
 >
 > The value of key 'baz' is 'baz value'
 
-#### Don't know how the data is structured
+### Don't know how the data is structured
 Read the documentation for whatever it is you're getting the JSON from.
 
 Look at the JSON - **where you see curly brackets {}** expect an *object*, where you see **square brackets []** expect an *array.*
@@ -196,7 +196,7 @@ This happens because either:
 3. It contains elements nested more than 512 levels deep. This default max depth can be overridden by passing an integer as the third argument to json_decode().
 If you need to change the max depth you're probably solving the wrong problem. Find out why you're getting such deeply nested data (e.g. the service you're querying that's generating the JSON has a bug) and get that to not happen.
 
-#### Object property name contains a special character
+### Object property name contains a special character
 Sometimes you'll have an object property name that contains something like a hyphen - or at sign @ which can't be used in a literal identifier. Instead you can use a string literal within curly braces to address it.
 
     $json = '{"@attributes":{"answer":42}}';
@@ -205,7 +205,7 @@ Sometimes you'll have an object property name that contains something like a hyp
     echo $thing->{'@attributes'}->answer; //42
 If you have an integer as property see: How to access object properties with names like integers? as reference.
 
-#### Someone put JSON in your JSON
+### Someone put JSON in your JSON
 It's ridiculous but it happens - there's JSON encoded as a string within your JSON. Decode, access the string as usual, decode that, and eventually get to what you need.
 
     $json = '
@@ -219,10 +219,10 @@ It's ridiculous but it happens - there's JSON encoded as a string within your JS
     $toppings = json_decode($yummy->toppings);
 
     echo $toppings[0]->type; //Glazed
-#### Data doesn't fit in memory
+### Data doesn't fit in memory
 If your JSON is too large for json_decode() to handle at once things start to get tricky. See:
 
 Processing large JSON files in PHP
 How to properly iterate through a big json file
-#### How to sort it
+### How to sort it
 See: [Reference: all basic ways to sort arrays and data in PHP.](https://stackoverflow.com/q/17364127/3942918)
