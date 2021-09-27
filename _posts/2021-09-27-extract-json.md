@@ -171,6 +171,7 @@ and check the output:
             )
 
     )
+
 It'll tell you where you have objects, where you have arrays, along with the names and values of their members.
 
 If you can only get so far into it before you get lost - go that far and hit that with print_r():
