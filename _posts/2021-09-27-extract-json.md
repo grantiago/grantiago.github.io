@@ -219,6 +219,7 @@ It's ridiculous but it happens - there's JSON encoded as a string within your JS
     $toppings = json_decode($yummy->toppings);
 
     echo $toppings[0]->type; //Glazed
+
 ### Data doesn't fit in memory
 If your JSON is too large for json_decode() to handle at once things start to get tricky. See:
 
