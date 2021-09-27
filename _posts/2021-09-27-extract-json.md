@@ -1,3 +1,5 @@
+## How to extract data from JSON with PHP?
+
 ### Intro
 First off you have a string. JSON is not an array, an object, or a data structure. JSON is a text-based serialization format - so a fancy string, but still just a string. Decode it in PHP by using json_decode().
 
