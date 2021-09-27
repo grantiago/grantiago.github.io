@@ -36,6 +36,7 @@ You access the properties of one of these objects the same way you would for the
     $yummy = json_decode($json);
 
     echo $yummy->type; //donut
+
 ### Accessing array elements
 You access the elements of one of these arrays the same way you would for any other array, e.g. $array[0].
 
@@ -49,6 +50,7 @@ You access the elements of one of these arrays the same way you would for any ot
     $toppings = json_decode($json);
 
     echo $toppings[1]; //Chocolate with Sprinkles
+
 Iterate over it with foreach.
 
     foreach ($toppings as $topping) {
@@ -82,6 +84,7 @@ The properties of objects and the elements of arrays might be more objects and/o
     $yummy = json_decode($json);
 
     echo $yummy->toppings[2]->id; //5004
+
 #### Passing true as the second argument to json_decode()
 When you do this, instead of objects you'll get associative arrays - arrays with strings for keys. Again you access the elements thereof as usual, e.g. $array['key'].
 
@@ -99,6 +102,7 @@ When you do this, instead of objects you'll get associative arrays - arrays with
     $yummy = json_decode($json, true);
 
     echo $yummy['toppings'][2]['type']; //Maple
+
 ### Accessing associative array items
 When decoding a JSON object to an associative PHP array, you can iterate both keys and values using the foreach (array_expression as $key => $value) syntax, eg
 
