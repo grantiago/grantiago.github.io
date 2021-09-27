@@ -45,9 +45,14 @@ Iterate over it with foreach.
     foreach ($toppings as $topping) {
         echo $topping, "\n";
     }
+
+
 > Glazed
+>  
 > Chocolate with Sprinkles
+> 
 > Maple
+
 
 Or mess about with any of the bazillion built-in array functions.
 
@@ -102,7 +107,9 @@ When decoding a JSON object to an associative PHP array, you can iterate both ke
 Prints
 
 > The value of key 'foo' is 'foo value'
+> 
 > The value of key 'bar' is 'bar value'
+>
 > The value of key 'baz' is 'baz value'
 
 #### Don't know how the data is structured
@@ -209,3 +216,5 @@ Processing large JSON files in PHP
 How to properly iterate through a big json file
 #### How to sort it
 See: Reference: all basic ways to sort arrays and data in PHP.
+
+##### shamelessly copied from [stackoverflow](https://stackoverflow.com/questions/29308898/how-do-i-extract-data-from-json-with-php)
