@@ -194,6 +194,8 @@ If you can only get so far into it before you get lost - go that far and hit tha
 
 Take a look at it in this handy [interactive JSON explorer](http://array.include-once.org/).
 
+Find the Json selector: [Json selector](http://jsonselector.com/)
+
 Break the problem down into pieces that are easier to wrap your head around.
 
 #### json_decode() returns null
