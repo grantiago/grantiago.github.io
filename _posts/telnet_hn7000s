@@ -1,0 +1,62 @@
+---
+layout: post
+title:  "Extract JSON with PHP"
+date:   2021-10-06 13:29:06 -0700
+categories: ssh telnet
+tag: coding
+---
+
+## For Use of wiping out current software, and starting over.
+
+Using TelNet
+
+Open the Command Prompt or CMD
+
+Type “telnet 192.168.0.1 1953” then hit enter (If telnet client not found follow steps on bottom)
+
+Wait for the window to load.
+
+Type “ rf ” then hit enter.
+
+The modem will restart, and come back on with a flashing Power and LAN light.
+
+Upload SBC file again and start registration installer.
+
+Windows Telnet Client
+
+Search for this in your windows search bar
+
+“Turn windows features on or off”
+
+When window shows up find Telnet Client in the list and make sure box is checked.
+
+Click OK to apply changes.
+
+Start from top again
+
+Random info on surviving HughesNet satellite Internet access
+
+Telnet to 192.168.0.1 to get the HN7000S’s vxWorks command prompt; 
+ username do brighton and 
+ password do swordfish. 
+ 
+Or telnet to 192.168.0.1 on port 1953 to get the menu interface.
+
+Browsers can use the HN7000S box as a proxy to get traffic accelerated quite a bit by configuring to use 192.168.0.1 port 87 as the HTTP proxy (In the past some things have failed when going through this, though, but we don’t have any notes yet on what those were.) 
+
+In the list of exceptions to using the proxy, remember to put 192.168.0.1 itself there, as well as ‘localhost’ and 127.0.0.1, at least. I added our local subnet as well with 10.9.79.0/24 so I can properly visit the various access points, etc.
+
+If SSL traffic is so slow as to be unusable, try configuring your browser to use a proxy for SSL also: host is 69.19.14.10 and port 3128. It’s not necessarily faster under normal circumstances.
+
+Make sure anyone using your connection has DISABLED any operating system updates on their computer. Laptops which download Mac OS X updates, for example, will slam you to exceed the 24-hour download cap and make you suffer for 24 hours at ~30kps cuz of the (un)Fair Access Policy.
+
+To get at the advanced configuration page, point at the URL
+http://192.168.0.1/fs/advanced/advanced.html
+
+The status page at
+http://192.168.0.1/sys_status/
+has a Diagnostics Code value like
+0000-0002-6400-0002
+You can visit
+http://192.168.0.1/cgi/execAdvCom.bin?Command=30&NoAutoRefresh=1&PrintMsg=Diag%20Code%20Analyze
+and put in the code from the status page. This will give you an explanation for why each of the particular bits are set to make up that series of numbers, with the values covering the most recent hour, 1 hour later, and 2 hours later.
