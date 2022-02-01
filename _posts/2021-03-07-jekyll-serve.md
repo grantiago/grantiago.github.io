@@ -8,7 +8,7 @@ categories: coding
 
 Because my Jekyll is on a network server I have to use the magic 0.0.0.0 ip for serve.
 
-$ jekyll serve --host 0.0.0.0
+`$ jekyll serve --host 0.0.0.0`
 
 [serve source url.](https://www.zarino.co.uk/post/jekyll-local-network/)
 
